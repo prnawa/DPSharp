@@ -54,6 +54,9 @@
     <Compile Include="AbstractFactoryPattern\ProductA2.cs" />
     <Compile Include="AbstractFactoryPattern\ProductB1.cs" />
     <Compile Include="AbstractFactoryPattern\ProductB2.cs" />
+    <Compile Include="BuilderPattern\Builder.cs" />
+    <Compile Include="BuilderPattern\Director.cs" />
+    <Compile Include="BuilderPattern\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AbstractFactoryPattern\readme.txt" />
+    <Content Include="BuilderPattern\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
