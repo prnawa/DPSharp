@@ -44,28 +44,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactoryPattern\AbstarctProductA.cs" />
-    <Compile Include="AbstractFactoryPattern\AbstarctProductB.cs" />
-    <Compile Include="AbstractFactoryPattern\AbstractFactory.cs" />
-    <Compile Include="AbstractFactoryPattern\Client.cs" />
-    <Compile Include="AbstractFactoryPattern\Factory1.cs" />
-    <Compile Include="AbstractFactoryPattern\Factory2.cs" />
-    <Compile Include="AbstractFactoryPattern\ProductA1.cs" />
-    <Compile Include="AbstractFactoryPattern\ProductA2.cs" />
-    <Compile Include="AbstractFactoryPattern\ProductB1.cs" />
-    <Compile Include="AbstractFactoryPattern\ProductB2.cs" />
-    <Compile Include="BuilderPattern\Builder.cs" />
-    <Compile Include="BuilderPattern\Director.cs" />
-    <Compile Include="BuilderPattern\Product.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\AbstarctProductA.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\AbstarctProductB.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\AbstractFactory.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\Client.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\Factory1.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\Factory2.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\ProductA1.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\ProductA2.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\ProductB1.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\ProductB2.cs" />
+    <Compile Include="Creational\BuilderPattern\Builder.cs" />
+    <Compile Include="Creational\BuilderPattern\Director.cs" />
+    <Compile Include="Creational\BuilderPattern\Product.cs" />
+    <Compile Include="Creational\FactoryMethod\Creator.cs" />
+    <Compile Include="Creational\FactoryMethod\Product.cs" />
+    <Compile Include="Creational\SingletonPattern\Double-CheckLocking\Singleton.cs" />
+    <Compile Include="Creational\SingletonPattern\Singleton.cs" />
+    <Compile Include="Creational\SingletonPattern\StaticInitialization\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AbstractFactoryPattern\AbstractFactory.cd" />
+    <None Include="Creational\AbstractFactoryPattern\AbstractFactory.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AbstractFactoryPattern\readme.txt" />
-    <Content Include="BuilderPattern\readme.txt" />
+    <Content Include="Creational\AbstractFactoryPattern\readme.txt" />
+    <Content Include="Creational\BuilderPattern\readme.txt" />
+    <Content Include="Creational\FactoryMethod\factory.gif" />
+    <Content Include="Creational\FactoryMethod\readme.txt" />
+    <Content Include="Creational\SingletonPattern\readme.txt" />
+    <Content Include="Creational\SingletonPattern\singleton.gif" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

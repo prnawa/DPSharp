@@ -53,6 +53,8 @@
     <Compile Include="AbstractFacotryTests.cs" />
     <Compile Include="BuilderPatternTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FactoryMethodTest.cs" />
+    <Compile Include="SingletonTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj">
