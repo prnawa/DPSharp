@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\IteratorPattern\Aggregate.cs" />
+    <Compile Include="Behavioral\IteratorPattern\Iterator.cs" />
+    <Compile Include="Behavioral\ObserverPattern\Context.cs" />
+    <Compile Include="Behavioral\ObserverPattern\IObserver.cs" />
+    <Compile Include="Behavioral\ObserverPattern\ISubject.cs" />
+    <Compile Include="Behavioral\ObserverPattern\Stratergy.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\AbstarctProductA.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\AbstarctProductB.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\AbstractFactory.cs" />
@@ -63,17 +69,26 @@
     <Compile Include="Creational\SingletonPattern\Singleton.cs" />
     <Compile Include="Creational\SingletonPattern\StaticInitialization\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\FacadePattern\Facade.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\AbstractFactoryPattern\AbstractFactory.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Behavioral\IteratorPattern\iterator.gif" />
+    <Content Include="Behavioral\IteratorPattern\readme.txt" />
+    <Content Include="Behavioral\ObserverPattern\observer.gif" />
+    <Content Include="Behavioral\ObserverPattern\readme.txt" />
+    <Content Include="Behavioral\StrategyPattern\readme.txt" />
+    <Content Include="Behavioral\StrategyPattern\strategy.gif" />
     <Content Include="Creational\AbstractFactoryPattern\readme.txt" />
     <Content Include="Creational\BuilderPattern\readme.txt" />
     <Content Include="Creational\FactoryMethod\factory.gif" />
     <Content Include="Creational\FactoryMethod\readme.txt" />
     <Content Include="Creational\SingletonPattern\readme.txt" />
     <Content Include="Creational\SingletonPattern\singleton.gif" />
+    <Content Include="Structural\FacadePattern\FacadePattern.jpg" />
+    <Content Include="Structural\FacadePattern\readme.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.1.1308.2321\lib\net40\Moq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -55,12 +58,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FactoryMethodTest.cs" />
     <Compile Include="SingletonTests.cs" />
+    <Compile Include="FacadeTests.cs" />
+    <Compile Include="IteratorPatternTests.cs" />
+    <Compile Include="ObserverPatternTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj">
       <Project>{D2444B78-322B-4838-BA7E-2E1C820F55BF}</Project>
       <Name>DesignPatterns</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
