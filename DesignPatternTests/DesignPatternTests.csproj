@@ -61,6 +61,10 @@
     <Compile Include="FacadeTests.cs" />
     <Compile Include="IteratorPatternTests.cs" />
     <Compile Include="ObserverPatternTests.cs" />
+    <Compile Include="CommandPatternTests.cs" />
+    <Compile Include="ProxyPatternTests.cs" />
+    <Compile Include="DecoratorPatternTest.cs" />
+    <Compile Include="MediatorPattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj">

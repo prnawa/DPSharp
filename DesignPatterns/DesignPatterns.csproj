@@ -44,12 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\CommandPattern\Command.cs" />
+    <Compile Include="Behavioral\CommandPattern\Invoker.cs" />
+    <Compile Include="Behavioral\CommandPattern\Receiver.cs" />
     <Compile Include="Behavioral\IteratorPattern\Aggregate.cs" />
     <Compile Include="Behavioral\IteratorPattern\Iterator.cs" />
-    <Compile Include="Behavioral\ObserverPattern\Context.cs" />
-    <Compile Include="Behavioral\ObserverPattern\IObserver.cs" />
-    <Compile Include="Behavioral\ObserverPattern\ISubject.cs" />
-    <Compile Include="Behavioral\ObserverPattern\Stratergy.cs" />
+    <Compile Include="Behavioral\MediatorPattern\Colleague.cs" />
+    <Compile Include="Behavioral\MediatorPattern\Mediator.cs" />
+    <Compile Include="Behavioral\StrategyPattern\Context.cs" />
+    <Compile Include="Behavioral\ObserverPattern\Observer.cs" />
+    <Compile Include="Behavioral\ObserverPattern\Subject.cs" />
+    <Compile Include="Behavioral\StrategyPattern\Stratergy.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\AbstarctProductA.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\AbstarctProductB.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\AbstractFactory.cs" />
@@ -69,12 +74,17 @@
     <Compile Include="Creational\SingletonPattern\Singleton.cs" />
     <Compile Include="Creational\SingletonPattern\StaticInitialization\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\DecoratorPattern\Component.cs" />
+    <Compile Include="Structural\DecoratorPattern\Decorator.cs" />
     <Compile Include="Structural\FacadePattern\Facade.cs" />
+    <Compile Include="Structural\ProxyPattern\Subject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\AbstractFactoryPattern\AbstractFactory.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Behavioral\CommandPattern\command.gif" />
+    <Content Include="Behavioral\CommandPattern\readme.txt" />
     <Content Include="Behavioral\IteratorPattern\iterator.gif" />
     <Content Include="Behavioral\IteratorPattern\readme.txt" />
     <Content Include="Behavioral\ObserverPattern\observer.gif" />
@@ -87,6 +97,8 @@
     <Content Include="Creational\FactoryMethod\readme.txt" />
     <Content Include="Creational\SingletonPattern\readme.txt" />
     <Content Include="Creational\SingletonPattern\singleton.gif" />
+    <Content Include="Structural\DecoratorPattern\decorator.gif" />
+    <Content Include="Structural\DecoratorPattern\readme.txt" />
     <Content Include="Structural\FacadePattern\FacadePattern.jpg" />
     <Content Include="Structural\FacadePattern\readme.txt" />
   </ItemGroup>
